@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore SQLite temp files
+*.db-journal
+*.sqlite-journal
+
 # Distribution / packaging
 .Python
 build/
